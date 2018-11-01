@@ -1,0 +1,22 @@
+{
+  "rules": {
+    "max-line-length": {
+      "options": [80]
+    },
+    "semicolon": [true, "always"],
+    "trailing-comma": [true, { "multiline": "always", "singleline": "never" }],
+    "no-any": "true",
+    "typedef": [
+      true,
+      "call-signature",
+      "arrow-call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "variable-declaration",
+      "member-variable-declaration",
+      "object-destructuring",
+      "array-destructuring"
+    ]
+  }
+}

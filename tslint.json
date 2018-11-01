@@ -1,0 +1,20 @@
+{
+  "rules": {
+    "max-line-length": {
+      "options": [80]
+    },
+    "semicolon": [true, "always"],
+    "trailing-comma": [true, { "multiline": "never", "singleline": "never" }],
+    "curly": true,
+    "no-any": "true",
+    "no-empty": true,
+    "no-var-keyword": "true",
+    "triple-equals": "true",
+    "switch-default": true,
+    "indent": [true, "spaces", 2],
+    "no-duplicate-imports": true,
+    "prefer-const": true,
+    "no-trailing-whitespace": true,
+    "quotemark": [true, "double"]
+  }
+}
